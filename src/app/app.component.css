@@ -16,6 +16,7 @@
 section{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .menu-open{
     font-size: 35px;
@@ -31,6 +32,10 @@ section{
     text-align: center;
     padding: 5px 20px;
     border-bottom: 3px solid rgba(128, 128, 128, 0.226);
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 }
 .navbar p{
     color: white;
