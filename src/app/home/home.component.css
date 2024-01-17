@@ -3,6 +3,7 @@
     max-width: 1600px;
     font-size: 20px;
     word-spacing: 7px;
+    scroll-behavior: smooth;
 }
 .heading{
     text-align: center;

@@ -104,6 +104,20 @@ li{
 .t-img{
     border-radius: 60px;
 }
+footer{
+    background-color: rgb(20, 141, 220);
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-flex div{
+    margin: 20px;
+}
 @media screen and (max-width: 1600px) {
     .navbar{
         margin-top: 10px;
