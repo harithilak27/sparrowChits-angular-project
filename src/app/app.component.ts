@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ang-app-2';
+
+  status: boolean = false;
+
+  clickEvent(){
+    this.status = !this.status;       
+  }
 }
