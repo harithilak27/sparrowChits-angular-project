@@ -1,1 +1,38 @@
-<p>contact-us works!</p>
+<div class="navigate">
+    <h2>GET A QUOTE</h2>
+</div>
+<div class="bg3">
+    <div class="bg2">
+        <div class="bg1">
+<div class="section-2">
+    <h1>Leave a message</h1>
+    <p>Support team will reach out as soon as possible</p>
+
+    <!-- message form -->
+
+    <form [formGroup]="messageForm" action="javascript.void(0)" (ngSubmit)="send()">
+
+        <label>Name*</label>
+        <input formControlName="from_name" type="name" id="name" placeholder="e.g.(Arul Kumar)" class="name"/>
+        <p *ngIf="messageForm.get('from_name')?.hasError('pattern')" class="red">Name is required</p>
+
+        <label>Email address*</label>
+        <input formControlName="from_email" type="email" id="mail" placeholder="e.g.(ArulKumar@gmail.com)" class="email" />
+        <p *ngIf="messageForm.get('from_email')?.hasError('email')" class="red">email is required</p>
+
+        <label>Mobile Number*</label>
+        <input formControlName="from_phone" type="phone" id="ph1" placeholder="e.g.(9876543233)" class="phone" />
+        <p *ngIf="messageForm.get('from_phone')?.hasError('pattern')" class="red">Invalid phone number</p>
+
+        <label>Write your message below*</label>
+        <textarea formControlName="message" class="message" id="textarea" rows="10" placeholder="your message"></textarea>
+        <p *ngIf="messageForm.get('message')?.hasError('pattern')" class="red">message required</p>
+
+        <button type="submit" class="submit" [disabled]="!messageForm.valid">Submit form</button>
+
+        <h3 id="h3"></h3>
+    </form>
+</div>
+</div>
+</div>
+</div>

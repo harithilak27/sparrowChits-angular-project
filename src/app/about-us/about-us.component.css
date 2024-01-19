@@ -1,0 +1,63 @@
+.bg1{
+    background-color: rgb(244, 250, 253);
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    padding-top: 10px;
+}
+.bg2{
+    background-color: rgb(233, 247, 255);
+    padding-top: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.bg3{
+    background-color: rgb(227, 244, 255);
+    padding-top: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.navigate{
+    text-align: center;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.about{
+    margin: 0 auto;
+    max-width: 1600px;
+    font-size: 20px;
+    word-spacing: 7px;
+    scroll-behavior: smooth;
+}
+.about-heading{
+    text-align: justify;
+}
+.vision{
+    margin: 80px auto;
+    max-width: 1200px;
+    background-color: rgba(20, 140, 220, 0.116);
+    padding: 5px 10px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 10px rgba(20, 140, 220, 0.301);
+    box-shadow: 0 0 10px rgba(20, 140, 220, 0.103);
+}
+.mission-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mission-box{
+    margin: 5px auto 20px auto;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    background-color: rgba(20, 140, 220, 0.116);
+    box-shadow: 5px 6px 5px 5px rgba(20, 140, 220, 0.048);
+    border-radius: 50%;
+    padding: 10px;
+}
+.mission-box h2{
+    margin-top: 100px;
+}

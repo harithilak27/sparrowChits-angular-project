@@ -5,9 +5,9 @@
     text-decoration: none solid rgb(155, 158, 168);
     font-weight: 400;
     position: relative;
-    background-color: rgb(20, 141, 220);
+    background-color: rgb(58, 58, 59);
     color: white;
-    padding: 5px 20px;
+    /* padding: 5px 20px; */
 }
 .numbers{
     display: flex;
@@ -36,6 +36,7 @@ section{
     position: sticky;
     top: 0px;
     z-index: 2;
+    margin: 0;
 }
 .navbar p{
     color: white;
@@ -105,13 +106,14 @@ li{
     border-radius: 60px;
 }
 footer{
-    background-color: rgb(20, 141, 220);
+    background-color: rgb(58, 58, 59);
     color: white;
     font-size: 20px;
     font-weight: 400;
     margin: 0;
 }
 .footer-flex{
+    height: max-content;
     display: flex;
     justify-content: space-evenly;
 }
@@ -136,6 +138,7 @@ footer{
     }
     .navbar{
         text-align: left;
+        padding: 0;
     }
     .navbar-flex{
         overflow-y: scroll;
@@ -190,9 +193,22 @@ footer{
     .hidden{
         display: none;
     }
+    footer{
+        margin: 0;
+        padding: 10px 0;
+    }
+    .footer-flex{
+        margin: 0 auto;
+        display: block;
+        width: 90%;
+    }
+    .inner-text{
+        margin: 100px auto;
+    }
+
     @media screen and (max-width: 550px) {
         .navbar{
-            width: 250px;
+            width: 100%;
             font-size: 14px;
         }
         .logo{
