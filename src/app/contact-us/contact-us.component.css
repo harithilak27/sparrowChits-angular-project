@@ -2,34 +2,36 @@
     background-color: rgb(244, 250, 253);
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .bg2{
     background-color: rgb(233, 247, 255);
-    padding-top: 20px;
+    padding-top: 30px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
 .bg3{
     background-color: rgb(227, 244, 255);
-    padding-top: 20px;
+    padding-top: 40px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 h2{
     text-align: center;
+    margin: 50px auto;
 }
 .section-2{
     /* text-align: center; */
     margin: 13px auto;
-    width: 35%;
+    width: 50%;
     background-color: white;
     box-shadow: 5px 6px 5px 5px #f0f0f0;
     padding: 15px 25px;
     border-radius: 10px;
 }
 form{
-    /* width: 50%; */
+    margin: 0 auto;
+    width: 50%;
     display: grid;
     grid-template-columns: auto;
 }
