@@ -79,3 +79,16 @@ a{
         font-size: 23px;
     }
 }
+@media screen and (max-width: 500px) {
+    .about-heading{
+        width: 90%;
+        margin: 10px;
+    }
+    h2{
+        word-spacing: normal;
+        font-size: 20px;
+    }
+    p{
+        word-spacing: normal;
+    }
+}

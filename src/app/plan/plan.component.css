@@ -50,3 +50,34 @@ table{
 tr:nth-child(even) {
     background-color: white;
 }
+@media screen and (max-width: 700px) {
+    table{
+        width: fit-content;
+    }
+    .table td{
+        color: rgb(20, 141, 220);
+        padding: 2px 2px;
+    }
+    .table td{
+        color: rgb(20, 141, 220);
+        padding: 2px 5px;
+        width: 90px;
+    }
+    .table-2 th , td{
+        border: 2.5px solid rgb(0, 162, 255);
+        padding: 2px 5px;
+        width: 90px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .table td{
+        color: rgb(20, 141, 220);
+        padding: 2px 5px;
+        width: 50px;
+    }
+    .table-2 th , td{
+        border: 2.5px solid rgb(0, 162, 255);
+        padding: 2px 5px;
+        width: 50px;
+    }
+}

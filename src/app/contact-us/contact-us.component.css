@@ -24,7 +24,7 @@ h2{
     /* text-align: center; */
     margin: 13px auto;
     width: 50%;
-    background-color: white;
+    background-color: rgb(247, 247, 247);
     box-shadow: 5px 6px 5px 5px #f0f0f0;
     padding: 15px 25px;
     border-radius: 10px;
@@ -82,4 +82,19 @@ form h3{
 }
 .submit:disabled{
     background-color: #777777;
+}
+@media screen and (max-width: 500px) {
+    form{
+        width: auto;
+    }
+    .section-2{
+        width: 90%;
+    }
+    h2{
+        word-spacing: normal;
+        font-size: 20px;
+    }
+    p{
+        word-spacing: normal;
+    }
 }
