@@ -104,6 +104,9 @@ li{
     border-radius: 60px;
 }
 footer{
+    background-image: url('../assets/images/footer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: rgb(0, 120, 191);
     color: white;
     font-size: 20px;

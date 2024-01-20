@@ -1,31 +1,42 @@
-<div class="navigate">
-    <h2>GET A QUOTE</h2>
+<div class="img">
+    <img  src="../../assets/istockphoto-1365543480-640x640-removebg-preview.png" alt="" />
 </div>
-<div class="bg3">
-    <div class="bg2">
-        <div class="bg1">
+<!-- <div class="bg3">
+<div class="bg2">
+<div class="bg1"> -->
+<div class="sections">
+<div class="call">
+    <div>
+        <h1>&#9743;</h1>
+    </div>
+    <div>
+        <p>Address : Shop No. 3, Marvel Complex, Vinayagar Kovil Street, BK Pudur, 
+            Kuniamuthur Po, Coimbatore - 641008.</p>
+        <p>+91 8508 444 888</p>
+        <p>info@ sparrowchits.com</p>
+        <p>www.sparrowchits.com</p>
+    </div>
+</div>
 <div class="section-2">
-    <h1>Leave a message</h1>
-    <p>Support team will reach out as soon as possible</p>
 
     <!-- message form -->
 
     <form [formGroup]="messageForm" action="javascript.void(0)" (ngSubmit)="send()">
-
-        <label>Name*</label>
-        <input formControlName="from_name" type="name" id="name" placeholder="e.g.(Arul Kumar)" class="name"/>
+        <h2>REACH US</h2>
+        <label>Name : </label>
+        <input formControlName="from_name" type="name" id="name" placeholder="" class="name"/>
         <p *ngIf="messageForm.get('from_name')?.hasError('pattern')" class="red">Name is required</p>
 
-        <label>Email address*</label>
-        <input formControlName="from_email" type="email" id="mail" placeholder="e.g.(ArulKumar@gmail.com)" class="email" />
+        <label>Email address :</label>
+        <input formControlName="from_email" type="email" id="mail" placeholder="" class="email" />
         <p *ngIf="messageForm.get('from_email')?.hasError('email')" class="red">email is required</p>
 
-        <label>Mobile Number*</label>
-        <input formControlName="from_phone" type="phone" id="ph1" placeholder="e.g.(9876543233)" class="phone" />
+        <label>Mobile Number :</label>
+        <input formControlName="from_phone" type="phone" id="ph1" placeholder="" class="phone" />
         <p *ngIf="messageForm.get('from_phone')?.hasError('pattern')" class="red">Invalid phone number</p>
 
-        <label>Write your message below*</label>
-        <textarea formControlName="message" class="message" id="textarea" rows="10" placeholder="your message"></textarea>
+        <label>Write your message below :</label>
+        <textarea formControlName="message" class="message" id="textarea" rows="10" ></textarea>
         <p *ngIf="messageForm.get('message')?.hasError('pattern')" class="red">message required</p>
 
         <button type="submit" class="submit" [disabled]="!messageForm.valid">Submit form</button>
@@ -34,5 +45,6 @@
     </form>
 </div>
 </div>
+<!-- </div>
 </div>
-</div>
+</div> -->

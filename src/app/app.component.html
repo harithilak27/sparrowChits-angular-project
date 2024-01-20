@@ -12,7 +12,7 @@
         <div class="menu-close" >
             <h3 (click)="clickEvent()">&#8999;</h3>
         </div>
-        <a routerLink="home" routerLinkActive="active"><li>HOME</li></a>
+        <a routerLink="home" routerLinkActive="active" ><li>HOME</li></a>
         <a routerLink="aboutus" routerLinkActive="active"><li>ABOUT US</li></a>
         <a routerLink="plan" routerLinkActive="active"><li>PLANS</li></a>
         <a routerLink="contactus" routerLinkActive="active"><li>CONTACT US</li></a>
@@ -23,7 +23,7 @@
         <h3 (click)="clickEvent()">&#9776;</h3>
     </div>
 </div>
-<router-outlet></router-outlet>
+<router-outlet (activate)="onActivate($event)"></router-outlet>
 <footer class="footer">
     <div class="footer-flex">
     <div class="inner-text">
@@ -51,12 +51,12 @@
     </div>
 </footer>
 <div class="whatsapp">
-<a href="http://wa.me/+918248339060" target="_blank">
+<a href="http://wa.me/+918508444888" target="_blank">
     <img class="w-img" src="../assets/images/whatsapp.256x256.png" alt="" />
 </a>
 </div>
 <div class="tel">
-<a href="tel:8248339060">
+<a href="tel:8508444888">
     <img class="t-img" src="../assets/images/tel.png" alt="" />
 </a>
 </div>

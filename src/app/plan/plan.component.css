@@ -2,7 +2,8 @@
     background-color: rgb(244, 250, 253);
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
-    padding-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 .bg2{
     background-color: rgb(215, 240, 255);
@@ -12,7 +13,7 @@
 }
 .bg3{
     background-color: rgb(188, 228, 255);
-    padding-top: 40px;
+    padding-top: 36px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }

@@ -1,7 +1,7 @@
 .bg1{
     background-color: rgb(244, 250, 253);
-    border-top-left-radius: 70px;
-    border-top-right-radius: 70px;
+    /* border-top-left-radius: 70px;
+    border-top-right-radius: 70px; */
     padding-top: 20px;
 }
 .bg2{
@@ -13,8 +13,8 @@
 .bg3{
     background-color: rgb(188, 228, 255);
     padding-top: 40px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 30px; */
 }
 h2{
     text-align: center;
@@ -22,8 +22,7 @@ h2{
 }
 .section-2{
     /* text-align: center; */
-    margin: 13px auto;
-    width: 50%;
+    width: 40%;
     background-color: rgb(247, 247, 247);
     box-shadow: 5px 6px 5px 5px #f0f0f0;
     padding: 15px 25px;
@@ -36,7 +35,7 @@ form{
     grid-template-columns: auto;
 }
 form input{
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     height: 40px;
     margin: 8px 0;
     border-color: #f5f5f5;
@@ -46,6 +45,9 @@ form input{
 }
 form h3{
     text-align: center;
+}
+label{
+    margin-top: 15px;
 }
 #nm{
     display: none;
@@ -57,6 +59,7 @@ form h3{
     background-color: black;
     color: white;
     border-radius: 8px; 
+    margin: 0 auto;
 }
 .submit{
     margin: 10px auto;
@@ -78,10 +81,37 @@ form h3{
 .submit:disabled{
     background-color: #777777;
 }
-@media screen and (max-width: 700px) {
+.call{
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    box-shadow: 5px 6px 5px 5px #f0f0f0;
+    border-radius: 8px;
+    font-size: 22px;
+    height: fit-content;
+    padding: 0 40px;
+    width:30%;
+}
+.sections{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.img{
+    margin-bottom: 70px;
+    text-align: center;
+    background-color: rgba(0, 121, 191, 0.863);
+}
+@media screen and (max-width: 900px) {
+    .sections{
+        display: block;
+    }
     .section-2{
         width: 90%;
     }   
+    .call{
+        width: 90%;
+    }
 }
 @media screen and (max-width: 500px) {
     form{
