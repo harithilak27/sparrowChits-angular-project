@@ -61,6 +61,11 @@ a{
 .mission-box h2{
     margin-top: 100px;
 }
+@media screen and (max-width: 1000px) {
+    .about-heading{
+        margin: 0 10px;
+    }
+}
 @media screen and (max-width: 700px) {
     *{
         word-spacing: 8px;

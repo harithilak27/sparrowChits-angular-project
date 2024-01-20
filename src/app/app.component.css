@@ -53,6 +53,12 @@
 .navbar a:hover::after{
     width: 100%; 
 }
+.navbar a.active::after{
+    width: 100%; 
+}
+.navbar a.active{
+    color: rgb(234, 94, 40);
+}
 li{
     margin: 15px 0;
 }
@@ -112,6 +118,12 @@ footer{
 .footer-flex div{
     margin: 20px;
 }
+.inner-text h2{
+    content: " ";
+    width: fit-content;
+    border-bottom: 3px solid #ea5e28;
+}
+
 @media screen and (max-width: 1600px) {
     .navbar{
         margin-top: 10px;
