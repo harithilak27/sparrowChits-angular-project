@@ -100,7 +100,7 @@ label{
 .img{
     margin-bottom: 70px;
     text-align: center;
-    background-color: rgba(0, 121, 191, 0.863);
+    background-color: rgb(20, 141, 220);
 }
 @media screen and (max-width: 900px) {
     .sections{
