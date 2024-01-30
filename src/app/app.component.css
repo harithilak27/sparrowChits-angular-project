@@ -10,7 +10,9 @@
     display: flex;
     gap: 15px;
 }
-
+.navbar img{
+    cursor: pointer;
+}
 .menu-open{
     font-size: 35px;
     /* margin-top: 15px; */
