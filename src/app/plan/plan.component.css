@@ -2,7 +2,7 @@
     background-color: rgb(244, 250, 253);
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
-    padding-top: 25px;
+    padding-top: 0.2px;
     padding-bottom: 20px;
 }
 .bg2{
@@ -24,7 +24,7 @@ h2{
 table{
     border-collapse: collapse;
     border-radius: 10px;
-    margin: 50px auto;
+    margin: 0 auto;
 }
 .bottom{
     border-bottom: 2px solid rgb(212, 212, 212);
@@ -32,7 +32,7 @@ table{
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
 }
 .table{
-    margin: 50px auto 50px auto;
+    margin: 0 auto 50px auto;
     text-align: center;
 }
 

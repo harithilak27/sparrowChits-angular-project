@@ -4,7 +4,7 @@
     background-color: rgb(20, 141, 220);
     color: white;
     text-align: center;
-    padding: 1px 2px;
+    padding: 2px 25px;
 }
 .numbers{
     display: flex;
@@ -25,7 +25,7 @@
     line-height: 20px;
     color: black;  
     text-align: center;
-    padding: 5px 20px;
+    padding: 5px 25px;
     border-bottom: 3px solid rgba(128, 128, 128, 0.226);
     background-color: white;
     position: sticky;
